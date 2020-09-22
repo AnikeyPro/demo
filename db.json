@@ -10,5 +10,19 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "data": {
+    "type": "person",
+    "attributes": [{
+      "id": 10,
+      "personNumber": "123",
+      "firstName": "Тест",
+      "lastName": "Тест",
+      "middleName": "Тестов",
+      "sTitleId": 4,
+      "sPositionId": 3,
+      "sPersonnelState": 2,
+      "dateOfBirth": "1980-12-12T00:00:00" 
+    }]
   }
 }
