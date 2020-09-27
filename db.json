@@ -1,17 +1,430 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "personnel": 
-  {"data":{"attributes":[{"firstName":"Ермаков","id":135,"lastName":"Егор","middleName":"Григорьевич","personNumber":21,"sPersonnelState":{"code":"3","descrKz":"В строю","descrRu":"В строю","id":2},"sPositionId":{"descrRu":"Начальник пограничного отделения","id":38,"name":"Начальник пограничного отделения"},"sTitleId":{"descrKz":"майор","descrRu":"майор","id":118,"name":"майор","sTitleCategoriesEntity":{"descrKz":"Офицеры","descrRu":"Офицеры","id":1,"name":"Офицеры"}}},{"firstName":"Соболев","id":136,"lastName":"Фёдор","middleName":"Сергеевич","personNumber":22,"sPersonnelState":{"code":"3","descrKz":"В строю","descrRu":"В строю","id":2},"sPositionId":{"descrRu":"Заместитель начальника пограничного отделения","id":39,"name":"Зам.начальника пограничного отделения"},"sTitleId":{"descrKz":"капитан","descrRu":"капитан","id":117,"name":"капитан","sTitleCategoriesEntity":{"descrKz":"Офицеры","descrRu":"Офицеры","id":1,"name":"Офицеры"}}},{"firstName":"Шевцов","id":137,"lastName":"Лев","middleName":"Максимович","personNumber":23,"sPersonnelState":{"code":"1","descrKz":"Болен","descrRu":"Болен","id":1},"sPositionId":{"descrRu":"Заместитель начальника пограничного отделения (по ВИР)","id":40,"name":"Зам.начальника пограничного отделения (по ВИР)"},"sTitleId":{"descrKz":"капитан","descrRu":"капитан","id":117,"name":"капитан","sTitleCategoriesEntity":{"descrKz":"Офицеры","descrRu":"Офицеры","id":1,"name":"Офицеры"}}},{"firstName":"Устинов","id":138,"lastName":"Алексей","middleName":"Георгиевич","personNumber":24,"sPersonnelState":{"code":"3","descrKz":"В строю","descrRu":"В строю","id":2},"sPositionId":{"descrRu":"Заместитель начальника пограничного отделения – младший оперуполномоченный","id":41,"name":"Зам.начальника пограничного отделения (мл.о/у)"},"sTitleId":{"descrKz":"старший лейтенант","descrRu":"старший лейтенант","id":116,"name":"старший лейтенант","sTitleCategoriesEntity":{"descrKz":"Офицеры","descrRu":"Офицеры","id":1,"name":"Офицеры"}}},{"firstName":"Киреев","id":139,"lastName":"Арсений","middleName":"Глебович","personNumber":25,"sPersonnelState":{"code":"3","descrKz":"В строю","descrRu":"В строю","id":2},"sPositionId":{"descrRu":"Офицер","id":42,"name":"Офицер"},"sTitleId":{"descrKz":"старший лейтенант","descrRu":"старший лейтенант","id":116,"name":"старший лейтенант","sTitleCategoriesEntity":{"descrKz":"Офицеры","descrRu":"Офицеры","id":1,"name":"Офицеры"}}},{"firstName":"Новиков","id":140,"lastName":"Илья","middleName":"Константинович","personNumber":26,"sPersonnelState":{"code":"3","descrKz":"В строю","descrRu":"В строю","id":2},"sPositionId":{"descrRu":"Офицер","id":42,"name":"Офицер"},"sTitleId":{"descrKz":"лейтенант","descrRu":"лейтенант","id":115,"name":"лейтенант","sTitleCategoriesEntity":{"descrKz":"Офицеры","descrRu":"Офицеры","id":1,"name":"Офицеры"}}},{"firstName":"Туманов","id":141,"lastName":"Артём","middleName":"Александрович","personNumber":27,"sPersonnelState":{"code":"3","descrKz":"В строю","descrRu":"В строю","id":2},"sPositionId":{"descrRu":"Офицер","id":42,"name":"Офицер"},"sTitleId":{"descrKz":"лейтенант","descrRu":"лейтенант","id":115,"name":"лейтенант","sTitleCategoriesEntity":{"descrKz":"Офицеры","descrRu":"Офицеры","id":1,"name":"Офицеры"}}},{"firstName":"Герасимов","id":142,"lastName":"Никита","middleName":"Михайлович","personNumber":28,"sPersonnelState":{"code":"3","descrKz":"В строю","descrRu":"В строю","id":2},"sPositionId":{"descrRu":"Офицер","id":42,"name":"Офицер"},"sTitleId":{"descrKz":"мастер-сержант","descrRu":"мастер-сержант","id":114,"name":"мастер-сержант","sTitleCategoriesEntity":{"descrKz":"Сержанты","descrRu":"Сержанты","id":2,"name":"Сержанты"}}},{"firstName":"Зыков","id":143,"lastName":"Максим","middleName":"Владимирович","personNumber":29,"sPersonnelState":{"code":"4","descrKz":"Отбывает наказание","descrRu":"Отбывает наказание","id":4},"sPositionId":{"descrRu":"Старшина","id":43,"name":"Старшина"},"sTitleId":{"descrKz":"младший сержант","descrRu":"младший сержант","id":4,"name":"младший сержант","sTitleCategoriesEntity":{"descrKz":"Сержанты","descrRu":"Сержанты","id":2,"name":"Сержанты"}}},{"firstName":"Лопатин","id":144,"lastName":"Даниил","middleName":"Артёмович","personNumber":30,"sPersonnelState":{"code":"5","descrKz":"В командировке","descrRu":"В командировке","id":5},"sPositionId":{"descrRu":"Начальник подразделения (начальник группы)","id":47,"name":"Начальник мобильной группы"},"sTitleId":{"descrKz":"младший сержант","descrRu":"младший сержант","id":4,"name":"младший сержант","sTitleCategoriesEntity":{"descrKz":"Сержанты","descrRu":"Сержанты","id":2,"name":"Сержанты"}}},{"firstName":"Михайлов","id":145,"lastName":"Лев","middleName":"Степанович","personNumber":31,"sPersonnelState":{"code":"6","descrKz":"Отпуск","descrRu":"Отпуск","id":6},"sPositionId":{"descrRu":"Начальник подразделения (начальник группы)","id":47,"name":"Начальник мобильной группы"},"sTitleId":{"descrKz":"младший сержант","descrRu":"младший сержант","id":4,"name":"младший сержант","sTitleCategoriesEntity":{"descrKz":"Сержанты","descrRu":"Сержанты","id":2,"name":"Сержанты"}}},{"firstName":"Левин","id":146,"lastName":"Владислав","middleName":"Петрович","personNumber":32,"sPersonnelState":{"code":"7","descrKz":"Прикомандирован","descrRu":"Прикомандирован","id":7},"sPositionId":{"descrRu":"Солдат (разведчик-водитель)","id":50,"name":"Разведчик-водитель"},"sTitleId":{"descrKz":"Ефрейтор","descrRu":"Ефрейтор","id":3,"name":"Ефрейтор","sTitleCategoriesEntity":{"descrKz":"Рядовые","descrRu":"Рядовые","id":3,"name":"Рядовые"}}},{"firstName":"Пономарев","id":147,"lastName":"Кирилл","middleName":"Тимофеевич","personNumber":33,"sPersonnelState":{"code":"3","descrKz":"В строю","descrRu":"В строю","id":2},"sPositionId":{"descrRu":"Солдат (разведчик-водитель)","id":50,"name":"Разведчик-водитель"},"sTitleId":{"descrKz":"Ефрейтор","descrRu":"Ефрейтор","id":3,"name":"Ефрейтор","sTitleCategoriesEntity":{"descrKz":"Рядовые","descrRu":"Рядовые","id":3,"name":"Рядовые"}}},{"firstName":"Акимов","id":148,"lastName":"Кирилл","middleName":"Матвеевич","personNumber":34,"sPersonnelState":{"code":"3","descrKz":"В строю","descrRu":"В строю","id":2},"sPositionId":{"descrRu":"Солдат (разведчик)","id":49,"name":"Разведчик"},"sTitleId":{"descrKz":"Рядовой","descrRu":"Рядовой","id":2,"name":"Рядовой","sTitleCategoriesEntity":{"descrKz":"Рядовые","descrRu":"Рядовые","id":3,"name":"Рядовые"}}},{"firstName":"Петров","id":149,"lastName":"Дамир","middleName":"Егорович","personNumber":35,"sPersonnelState":{"code":"2","descrKz":"В увольнении","descrRu":"В увольнении","id":3},"sPositionId":{"descrRu":"Солдат (разведчик)","id":49,"name":"Разведчик"},"sTitleId":{"descrKz":"Рядовой","descrRu":"Рядовой","id":2,"name":"Рядовой","sTitleCategoriesEntity":{"descrKz":"Рядовые","descrRu":"Рядовые","id":3,"name":"Рядовые"}}},{"firstName":"Смирнов","id":150,"lastName":"Глеб","middleName":"Григорьевич","personNumber":36,"sPersonnelState":{"code":"5","descrKz":"В командировке","descrRu":"В командировке","id":5},"sPositionId":{"descrRu":"Старший специалист (ст.мастер)","id":51,"name":"Старший мастер"},"sTitleId":{"descrKz":"Рядовой","descrRu":"Рядовой","id":2,"name":"Рядовой","sTitleCategoriesEntity":{"descrKz":"Рядовые","descrRu":"Рядовые","id":3,"name":"Рядовые"}}},{"firstName":"Семенов","id":151,"lastName":"Дмитрий","middleName":"Артёмович","personNumber":37,"sPersonnelState":{"code":"6","descrKz":"Отпуск","descrRu":"Отпуск","id":6},"sPositionId":{"descrRu":"Специалист (мастер)","id":52,"name":"Мастер"},"sTitleId":{"descrKz":"Рядовой","descrRu":"Рядовой","id":2,"name":"Рядовой","sTitleCategoriesEntity":{"descrKz":"Рядовые","descrRu":"Рядовые","id":3,"name":"Рядовые"}}},{"firstName":"Юдин","id":152,"lastName":"Артём","middleName":"Алексеевич","personNumber":38,"sPersonnelState":{"code":"3","descrKz":"В строю","descrRu":"В строю","id":2},"sPositionId":{"descrRu":"Старший специалист (ст.оператор)","id":53,"name":"Старший оператор"},"sTitleId":{"descrKz":"Рядовой","descrRu":"Рядовой","id":2,"name":"Рядовой","sTitleCategoriesEntity":{"descrKz":"Рядовые","descrRu":"Рядовые","id":3,"name":"Рядовые"}}},{"firstName":"Панов","id":153,"lastName":"Артём","middleName":"Николаевич","personNumber":39,"sPersonnelState":{"code":"3","descrKz":"В строю","descrRu":"В строю","id":2},"sPositionId":{"descrRu":"Старший специалист (ст.оператор)","id":53,"name":"Старший оператор"},"sTitleId":{"descrKz":"Рядовой","descrRu":"Рядовой","id":2,"name":"Рядовой","sTitleCategoriesEntity":{"descrKz":"Рядовые","descrRu":"Рядовые","id":3,"name":"Рядовые"}}},{"firstName":"Тарасов","id":154,"lastName":"Степан","middleName":"Никитич","personNumber":40,"sPersonnelState":{"code":"3","descrKz":"В строю","descrRu":"В строю","id":2},"sPositionId":{"descrRu":"Специалист (водитель)","id":46,"name":"Водитель"},"sTitleId":{"descrKz":"Рядовой","descrRu":"Рядовой","id":2,"name":"Рядовой","sTitleCategoriesEntity":{"descrKz":"Рядовые","descrRu":"Рядовые","id":3,"name":"Рядовые"}}}],"type":"GPersonEntity"}}
-
+   "personnel": 
+  {
+  "data": {
+    "attributes": [
+      {
+        "firstName": "Ермаков",
+        "id": 135,
+        "lastName": "Егор",
+        "middleName": "Григорьевич",
+        "personNumber": 21,
+        "sPersonnelState": {
+          "code": "3",
+          "descrKz": "В строю",
+          "descrRu": "В строю",
+          "id": 2
+        },
+        "sPositionId": {
+          "descrRu": "Начальник пограничного отделения",
+          "id": 38,
+          "name": "Начальник пограничного отделения"
+        },
+        "sTitleId": {
+          "descrKz": "майор",
+          "descrRu": "майор",
+          "id": 118,
+          "name": "майор",
+          "sTitleCategoriesEntity": {
+            "descrKz": "Офицеры",
+            "descrRu": "Офицеры",
+            "id": 1,
+            "name": "Офицеры"
+          }
+        }
+      },
+      {
+        "firstName": "Соболев",
+        "id": 136,
+        "lastName": "Фёдор",
+        "middleName": "Сергеевич",
+        "personNumber": 22,
+        "sPersonnelState": {
+          "code": "3",
+          "descrKz": "В строю",
+          "descrRu": "В строю",
+          "id": 2
+        },
+        "sPositionId": {
+          "descrRu": "Заместитель начальника пограничного отделения",
+          "id": 39,
+          "name": "Зам.начальника пограничного отделения"
+        },
+        "sTitleId": {
+          "descrKz": "капитан",
+          "descrRu": "капитан",
+          "id": 117,
+          "name": "капитан",
+          "sTitleCategoriesEntity": {
+            "descrKz": "Офицеры",
+            "descrRu": "Офицеры",
+            "id": 1,
+            "name": "Офицеры"
+          }
+        }
+      },
+      {
+        "firstName": "Шевцов",
+        "id": 137,
+        "lastName": "Лев",
+        "middleName": "Максимович",
+        "personNumber": 23,
+        "sPersonnelState": {
+          "code": "1",
+          "descrKz": "Болен",
+          "descrRu": "Болен",
+          "id": 1
+        },
+        "sPositionId": {
+          "descrRu": "Заместитель начальника пограничного отделения (по ВИР)",
+          "id": 40,
+          "name": "Зам.начальника пограничного отделения (по ВИР)"
+        },
+        "sTitleId": {
+          "descrKz": "капитан",
+          "descrRu": "капитан",
+          "id": 117,
+          "name": "капитан",
+          "sTitleCategoriesEntity": {
+            "descrKz": "Офицеры",
+            "descrRu": "Офицеры",
+            "id": 1,
+            "name": "Офицеры"
+          }
+        }
+      },
+      {
+        "firstName": "Устинов",
+        "id": 138,
+        "lastName": "Алексей",
+        "middleName": "Георгиевич",
+        "personNumber": 24,
+        "sPersonnelState": {
+          "code": "3",
+          "descrKz": "В строю",
+          "descrRu": "В строю",
+          "id": 2
+        },
+        "sPositionId": {
+          "descrRu": "Заместитель начальника пограничного отделения – младший оперуполномоченный",
+          "id": 41,
+          "name": "Зам.начальника пограничного отделения (мл.о/у)"
+        },
+        "sTitleId": {
+          "descrKz": "старший лейтенант",
+          "descrRu": "старший лейтенант",
+          "id": 116,
+          "name": "старший лейтенант",
+          "sTitleCategoriesEntity": {
+            "descrKz": "Офицеры",
+            "descrRu": "Офицеры",
+            "id": 1,
+            "name": "Офицеры"
+          }
+        }
+      },
+      {
+        "firstName": "Киреев",
+        "id": 139,
+        "lastName": "Арсений",
+        "middleName": "Глебович",
+        "personNumber": 25,
+        "sPersonnelState": {
+          "code": "3",
+          "descrKz": "В строю",
+          "descrRu": "В строю",
+          "id": 2
+        },
+        "sPositionId": {
+          "descrRu": "Офицер",
+          "id": 42,
+          "name": "Офицер"
+        },
+        "sTitleId": {
+          "descrKz": "старший лейтенант",
+          "descrRu": "старший лейтенант",
+          "id": 116,
+          "name": "старший лейтенант",
+          "sTitleCategoriesEntity": {
+            "descrKz": "Офицеры",
+            "descrRu": "Офицеры",
+            "id": 1,
+            "name": "Офицеры"
+          }
+        }
+      },
+      {
+        "firstName": "Новиков",
+        "id": 140,
+        "lastName": "Илья",
+        "middleName": "Константинович",
+        "personNumber": 26,
+        "sPersonnelState": {
+          "code": "3",
+          "descrKz": "В строю",
+          "descrRu": "В строю",
+          "id": 2
+        },
+        "sPositionId": {
+          "descrRu": "Офицер",
+          "id": 42,
+          "name": "Офицер"
+        },
+        "sTitleId": {
+          "descrKz": "лейтенант",
+          "descrRu": "лейтенант",
+          "id": 115,
+          "name": "лейтенант",
+          "sTitleCategoriesEntity": {
+            "descrKz": "Офицеры",
+            "descrRu": "Офицеры",
+            "id": 1,
+            "name": "Офицеры"
+          }
+        }
+      },
+      {
+        "firstName": "Туманов",
+        "id": 141,
+        "lastName": "Артём",
+        "middleName": "Александрович",
+        "personNumber": 27,
+        "sPersonnelState": {
+          "code": "3",
+          "descrKz": "В строю",
+          "descrRu": "В строю",
+          "id": 2
+        },
+        "sPositionId": {
+          "descrRu": "Офицер",
+          "id": 42,
+          "name": "Офицер"
+        },
+        "sTitleId": {
+          "descrKz": "лейтенант",
+          "descrRu": "лейтенант",
+          "id": 115,
+          "name": "лейтенант",
+          "sTitleCategoriesEntity": {
+            "descrKz": "Офицеры",
+            "descrRu": "Офицеры",
+            "id": 1,
+            "name": "Офицеры"
+          }
+        }
+      },
+      {
+        "firstName": "Герасимов",
+        "id": 142,
+        "lastName": "Никита",
+        "middleName": "Михайлович",
+        "personNumber": 28,
+        "sPersonnelState": {
+          "code": "3",
+          "descrKz": "В строю",
+          "descrRu": "В строю",
+          "id": 2
+        },
+        "sPositionId": {
+          "descrRu": "Офицер",
+          "id": 42,
+          "name": "Офицер"
+        },
+        "sTitleId": {
+          "descrKz": "мастер-сержант",
+          "descrRu": "мастер-сержант",
+          "id": 114,
+          "name": "мастер-сержант",
+          "sTitleCategoriesEntity": {
+            "descrKz": "Сержанты",
+            "descrRu": "Сержанты",
+            "id": 2,
+            "name": "Сержанты"
+          }
+        }
+      },
+      {
+        "firstName": "Зыков",
+        "id": 143,
+        "lastName": "Максим",
+        "middleName": "Владимирович",
+        "personNumber": 29,
+        "sPersonnelState": {
+          "code": "4",
+          "descrKz": "Отбывает наказание",
+          "descrRu": "Отбывает наказание",
+          "id": 4
+        },
+        "sPositionId": {
+          "descrRu": "Старшина",
+          "id": 43,
+          "name": "Старшина"
+        },
+        "sTitleId": {
+          "descrKz": "младший сержант",
+          "descrRu": "младший сержант",
+          "id": 4,
+          "name": "младший сержант",
+          "sTitleCategoriesEntity": {
+            "descrKz": "Сержанты",
+            "descrRu": "Сержанты",
+            "id": 2,
+            "name": "Сержанты"
+          }
+        }
+      },
+      {
+        "firstName": "Лопатин",
+        "id": 144,
+        "lastName": "Даниил",
+        "middleName": "Артёмович",
+        "personNumber": 30,
+        "sPersonnelState": {
+          "code": "5",
+          "descrKz": "В командировке",
+          "descrRu": "В командировке",
+          "id": 5
+        },
+        "sPositionId": {
+          "descrRu": "Начальник подразделения (начальник группы)",
+          "id": 47,
+          "name": "Начальник мобильной группы"
+        },
+        "sTitleId": {
+          "descrKz": "младший сержант",
+          "descrRu": "младший сержант",
+          "id": 4,
+          "name": "младший сержант",
+          "sTitleCategoriesEntity": {
+            "descrKz": "Сержанты",
+            "descrRu": "Сержанты",
+            "id": 2,
+            "name": "Сержанты"
+          }
+        }
+      },
+      {
+        "firstName": "Михайлов",
+        "id": 145,
+        "lastName": "Лев",
+        "middleName": "Степанович",
+        "personNumber": 31,
+        "sPersonnelState": {
+          "code": "6",
+          "descrKz": "Отпуск",
+          "descrRu": "Отпуск",
+          "id": 6
+        },
+        "sPositionId": {
+          "descrRu": "Начальник подразделения (начальник группы)",
+          "id": 47,
+          "name": "Начальник мобильной группы"
+        },
+        "sTitleId": {
+          "descrKz": "младший сержант",
+          "descrRu": "младший сержант",
+          "id": 4,
+          "name": "младший сержант",
+          "sTitleCategoriesEntity": {
+            "descrKz": "Сержанты",
+            "descrRu": "Сержанты",
+            "id": 2,
+            "name": "Сержанты"
+          }
+        }
+      },
+      {
+        "firstName": "Левин",
+        "id": 146,
+        "lastName": "Владислав",
+        "middleName": "Петрович",
+        "personNumber": 32,
+        "sPersonnelState": {
+          "code": "7",
+          "descrKz": "Прикомандирован",
+          "descrRu": "Прикомандирован",
+          "id": 7
+        },
+        "sPositionId": {
+          "descrRu": "Солдат (разведчик-водитель)",
+          "id": 50,
+          "name": "Разведчик-водитель"
+        },
+        "sTitleId": {
+          "descrKz": "Ефрейтор",
+          "descrRu": "Ефрейтор",
+          "id": 3,
+          "name": "Ефрейтор",
+          "sTitleCategoriesEntity": {
+            "descrKz": "Рядовые",
+            "descrRu": "Рядовые",
+            "id": 3,
+            "name": "Рядовые"
+          }
+        }
+      },
+      {
+        "firstName": "Пономарев",
+        "id": 147,
+        "lastName": "Кирилл",
+        "middleName": "Тимофеевич",
+        "personNumber": 33,
+        "sPersonnelState": {
+          "code": "3",
+          "descrKz": "В строю",
+          "descrRu": "В строю",
+          "id": 2
+        },
+        "sPositionId": {
+          "descrRu": "Солдат (разведчик-водитель)",
+          "id": 50,
+          "name": "Разведчик-водитель"
+        },
+        "sTitleId": {
+          "descrKz": "Ефрейтор",
+          "descrRu": "Ефрейтор",
+          "id": 3,
+          "name": "Ефрейтор",
+          "sTitleCategoriesEntity": {
+            "descrKz": "Рядовые",
+            "descrRu": "Рядовые",
+            "id": 3,
+            "name": "Рядовые"
+          }
+        }
+      },
+      {
+        "firstName": "Акимов",
+        "id": 148,
+        "lastName": "Кирилл",
+        "middleName": "Матвеевич",
+        "personNumber": 34,
+        "sPersonnelState": {
+          "code": "3",
+          "descrKz": "В строю",
+          "descrRu": "В строю",
+          "id": 2
+        },
+        "sPositionId": {
+          "descrRu": "Солдат (разведчик)",
+          "id": 49,
+          "name": "Разведчик"
+        },
+        "sTitleId": {
+          "descrKz": "Рядовой",
+          "descrRu": "Рядовой",
+          "id": 2,
+          "name": "Рядовой",
+          "sTitleCategoriesEntity": {
+            "descrKz": "Рядовые",
+            "descrRu": "Рядовые",
+            "id": 3,
+            "name": "Рядовые"
+          }
+        }
+      }
+    ],
+    "type": "GPersonEntity"
+  }
+}
 }
