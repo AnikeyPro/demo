@@ -1,5 +1,36 @@
 {
    "personnel": 
+   {
+       "data": {
+        "attributes": [
+            {
+                "descrKz": "сержант",
+                "descrRu": "сержант",
+                "id": 108,
+                "name": "сержант",
+                "sTitleCategoriesEntity": {
+                    "descrKz": "Сержанты",
+                    "descrRu": "Сержанты",
+                    "id": 2,
+                    "name": "Сержанты"
+                }
+            },
+            {
+                "descrKz": "старший сержант",
+                "descrRu": "старший сержант",
+                "id": 109,
+                "name": "старший сержант",
+                "sTitleCategoriesEntity": {
+                    "descrKz": "Сержанты",
+                    "descrRu": "Сержанты",
+                    "id": 2,
+                    "name": "Сержанты"
+                }
+            }],
+    "type": "GPersonEntity"
+  }
+   }
+   "personnel": 
   {
   "data": {
     "attributes": [
@@ -49,66 +80,6 @@
           "descrRu": "Старшина",
           "id": 43,
           "name": "Старшина"
-        },
-        "sTitleId": {
-          "descrKz": "младший сержант",
-          "descrRu": "младший сержант",
-          "id": 4,
-          "name": "младший сержант",
-          "sTitleCategoriesEntity": {
-            "descrKz": "Сержанты",
-            "descrRu": "Сержанты",
-            "id": 2,
-            "name": "Сержанты"
-          }
-        }
-      },
-      {
-        "firstName": "Лопатин",
-        "id": 144,
-        "lastName": "Даниил",
-        "middleName": "Артёмович",
-        "personNumber": 30,
-        "sPersonnelState": {
-          "code": "5",
-          "descrKz": "В командировке",
-          "descrRu": "В командировке",
-          "id": 5
-        },
-        "sPositionId": {
-          "descrRu": "Начальник подразделения (начальник группы)",
-          "id": 47,
-          "name": "Начальник мобильной группы"
-        },
-        "sTitleId": {
-          "descrKz": "младший сержант",
-          "descrRu": "младший сержант",
-          "id": 4,
-          "name": "младший сержант",
-          "sTitleCategoriesEntity": {
-            "descrKz": "Сержанты",
-            "descrRu": "Сержанты",
-            "id": 2,
-            "name": "Сержанты"
-          }
-        }
-      },
-      {
-        "firstName": "Михайлов",
-        "id": 145,
-        "lastName": "Лев",
-        "middleName": "Степанович",
-        "personNumber": 31,
-        "sPersonnelState": {
-          "code": "6",
-          "descrKz": "Отпуск",
-          "descrRu": "Отпуск",
-          "id": 6
-        },
-        "sPositionId": {
-          "descrRu": "Начальник подразделения (начальник группы)",
-          "id": 47,
-          "name": "Начальник мобильной группы"
         },
         "sTitleId": {
           "descrKz": "младший сержант",
