@@ -1,5 +1,5 @@
 {
-   "personnel": 
+   "title": 
    {
        "data": {
         "attributes": [
@@ -28,7 +28,7 @@
                 }
             }],
     "type": "GPersonEntity"
-  }
+       }
    }
    "personnel": 
   {
