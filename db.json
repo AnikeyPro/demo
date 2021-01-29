@@ -1,6 +1,6 @@
 {
-  firstName:'Andrey',
-  lastName:'Krutoy',
-  phone:"+79778250020",
-  lang:'ru'
+  "firstName":"Andrey",
+  "lastName":"Krutoy",
+  "phone":"+79778250020",
+  "lang":"ru"
 }
